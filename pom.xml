@@ -151,6 +151,9 @@
             <mainClass>org.jboss.as.quickstarts.rshelloworld.HelloWorld</mainClass>
           </manifest>
         </archive>
+        <descriptorRefs>
+          <descriptorRef>jar-with-dependencies</descriptorRef>
+        </descriptorRefs>
       </configuration>
     </plugin>
   </plugins>
